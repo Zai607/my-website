@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甘松生长监测</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>甘松生长监测</h1>
+    </header>
+
+    <main>
+        <!-- 首页图片 -->
+        <section class="home-image">
+            <img src="E:\大创\甘松\微信图片_20250305204206.jpg" alt="甘松生长监测首页图片">
+        </section>
+
+        <!-- 注册登录界面 -->
+        <section class="auth-section">
+            <div class="auth-forms">
+                <form id="register-form">
+                    <h2>注册</h2>
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">注册</button>
+                </form>
+
+                <form id="login-form" action="login.html" method="GET">
+                    <h2>登录</h2>
+                    <label for="login-username">用户名:</label>
+                    <input type="text" id="login-username" name="login-username" required>
+                    <label for="login-password">密码:</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <button type="submit">登录</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 甘松项目 -->
+        <section class="projects">
+            <div class="project">
+                <h2>甘松土壤中的N、P、K含量</h2>
+                <img src="images/soil-npk.jpg" alt="甘松土壤N、P、K含量">
+                <a href="project1.html" class="btn">查看详情</a>
+            </div>
+            <div class="project">
+                <h2>甘松空气中的CO2含量</h2>
+                <img src="images/co2-level.jpg" alt="甘松空气中的CO2含量">
+                <a href="project2.html" class="btn">查看详情</a>
+            </div>
+            <div class="project">
+                <h2>实时监控</h2>
+                <img src="images/real-time-monitoring.jpg" alt="实时监控">
+                <a href="project3.html" class="btn">查看详情</a>
+            </div>
+            <div class="project">
+                <h2>甘松生长周期模型</h2>
+                <img src="images/growth-model.jpg" alt="甘松生长周期模型">
+                <a href="project4.html" class="btn">查看详情</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 甘松生长监测系统</p>
+    </footer>
+</body>
+</html>
